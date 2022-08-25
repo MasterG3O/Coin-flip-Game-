@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
         // Take different actions for heads vs tails flipped
         if (flippedHeads) {
             // Display image and message as heads
-            document.getElementById('penny-image').src = 'assets/images/penny-heads.jpg'
+            document.getElementById('penny-image').src = 'assets/images/bitcoin-front.png'
             document.getElementById('message').textContent = 'You Flipped Heads!'
 
             // Add one to the count of number of heads flipped
@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
         else {
             // Display image and message as tails
-            document.getElementById('penny-image').src = 'assets/images/penny-tails.jpg'
+            document.getElementById('penny-image').src = 'assets/images/bitcoin-back.png'
             document.getElementById('message').textContent = 'You Flipped Tails!'
 
             // Add one to the count of number of tails flipped
@@ -54,8 +54,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
     document.getElementById('clear').addEventListener('click', function () {
         // Reset the heads and tails values to zero
+        //document.getElementById('Defaut-img').textContent = Default
         headsRolls = 0
         tailsRolls = 0
+
 
         // Update the message to the user
         document.getElementById('message').textContent = 'Let\'s Get Rolling!'

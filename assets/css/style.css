@@ -1,5 +1,7 @@
-html, 
+
+
 body {
+    
     margin: 0;
     padding: 0;
     text-align: center;
@@ -7,7 +9,7 @@ body {
 
 body {
     min-height: 100vh;
-    background: linear-gradient(to bottom left, orange, white);
+    background: linear-gradient(to bottom left, rgb(232, 62, 0), white);
 }
 
 main {
@@ -46,7 +48,7 @@ button {
 
 #flip:hover,
 #roll:hover {
-    background: linear-gradient(to bottom left, darkblue, lightblue);
+    background: linear-gradient(to bottom left, rgb(65, 65, 108), rgb(10, 147, 56));
 }
 
 #clear {
