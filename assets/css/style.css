@@ -11,6 +11,10 @@ body {
     min-height: 100vh;
     background: linear-gradient(to bottom left, rgb(232, 62, 0), white);
 }
+#img{
+ max-width: 100%;
+  width: 500px;
+}
 
 main {
     background-color: white;
@@ -56,7 +60,7 @@ button {
 }
 
 #clear:hover {
-    background: linear-gradient(to bottom left, red, orange);
+    background: linear-gradient(to bottom left, red, rgb(153, 119, 58));
 }
 
 /* Scoreboard Styles */
